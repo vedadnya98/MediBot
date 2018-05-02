@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "539511807361",
+    "firebase_url": "https://test-1b6b7.firebaseio.com",
+    "project_id": "test-1b6b7",
+    "storage_bucket": "test-1b6b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539511807361:android:127d127260101dc2",
+        "android_client_info": {
+          "package_name": "bytecamp3v.com.medibot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539511807361-u1l4v5dq4uhcaa1jicsc2ct3dbcab98q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bytecamp3v.com.medibot",
+            "certificate_hash": "64be3ab649b22b180728e74cca985266e959c204"
+          }
+        },
+        {
+          "client_id": "539511807361-3s95our776v4mihmcei8epdllk0dhqr8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuhasE8yF6jx5f_FErL2bKQ2y2CQcvy0I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539511807361-3s95our776v4mihmcei8epdllk0dhqr8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

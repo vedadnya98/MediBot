@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/redgradiant"
+    tools:context="bytecamp3v.com.medibot.PersonSelector">
+
+    <include
+        android:id="@+id/newToolbar"
+        layout="@layout/layout_toolbar" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3">
+    <LinearLayout
+        android:id="@+id/vedadnya"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_below="@id/newToolbar"
+        android:padding="10dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="40dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="TODO"
+            android:src="@drawable/vedadnya"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:weightSum="2"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/firstLine1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/secondLine1"
+                android:layout_toRightOf="@id/icon"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textAlignment="center"
+                android:gravity="center_vertical"
+                android:text="Vedadnya Jadhav"
+                android:textSize="20sp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/secondLine1"
+                android:layout_width="fill_parent"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/icon"
+                android:text="Age : 20"
+                android:textSize="20sp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/vipul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_below="@id/vedadnya"
+        android:padding="10dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/icon2"
+            android:layout_width="40dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="TODO"
+            android:src="@drawable/vipul"
+            android:layout_weight="1"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:weightSum="2"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/firstLine2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/secondLine2"
+                android:layout_toRightOf="@id/icon"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textAlignment="center"
+                android:gravity="center_vertical"
+                android:text="Vipul Singh"
+                android:textSize="20sp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/secondLine2"
+                android:layout_width="fill_parent"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/icon"
+                android:text="Age : 21"
+                android:textSize="20sp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/vikram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_below="@id/vipul"
+        android:padding="10dp"
+        android:layout_weight="1">
+
+    <ImageView
+        android:id="@+id/icon3"
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="TODO"
+        android:src="@drawable/vikram"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:weightSum="2"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/firstLine3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/secondLine3"
+            android:layout_toRightOf="@id/icon"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            android:text="Vikram Parmar"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/secondLine3"
+            android:layout_width="fill_parent"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon"
+            android:text="Age : 20"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

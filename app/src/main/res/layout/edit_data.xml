@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bytecamp3v.com.medibot.EditData"
+    android:background="@drawable/redgradiant">
+    <include
+        android:id="@+id/newToolbar"
+        layout="@layout/layout_toolbar" />
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:weightSum="3"
+android:paddingTop="100dp">
+<EditText
+    android:id="@+id/edit1"
+    android:hint="Enter person's name.."
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_weight="1"/>
+<EditText
+    android:id="@+id/edit2"
+    android:hint="Enter shift.."
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_weight="1"/>
+<EditText
+    android:id="@+id/edit3"
+    android:layout_width="match_parent"
+    android:hint="Enter medicine number.."
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_weight="1"/>
+<Button
+    android:layout_margin="50dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ON"
+    android:textSize="15dp"
+    android:id="@+id/save"
+    android:layout_gravity="center"
+    android:background="@drawable/corner"/>
+    <!--android:textAppearance="sans-serif-smallcaps"-->
+
+</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
